@@ -1,0 +1,76 @@
+@font-face {
+  font-family: 'inter';
+  src: local('inter'), url(./fonts/Inter/static/Inter-Regular.ttf) format('woff');
+}
+
+@font-face {
+  font-family: 'Courier Prime';
+  src: local('Courier Prime'), url(./fonts/courierprime/CourierPrime-Regular.ttf) format('woff');
+}
+
+@font-face {
+  font-family: 'PFHandbook';
+  src: url(./fonts/PFHandbookPro/PFHandbookPro-Bold.otf) format('opentype');
+}
+
+@font-face {
+  font-family: 'PFEncore';
+  src: url(./fonts/PFEncoreSansPro/PFEncoreSansPro-Reg.otf) format('opentype');
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'PFEncore';
+  src: url(./fonts/PFEncoreSansPro/PFEncoreSansPro-Medium.otf) format('opentype');
+  font-style: normal;
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: 'PFEncore';
+  src: url(./fonts/PFEncoreSansPro/PFEncoreSansPro-Bold.otf) format('opentype');
+  font-style: normal;
+  font-weight: 600;
+}
+
+:root{
+  --primaryRed: #BC333A;
+  --white: #FFFFFF;
+  --textColor: #242424;
+  --greyTextColor: #7C7C7B;
+}
+
+* {
+  font-family: 'PFEncore';
+  font-weight: normal;
+  /* color: var(--textColor); */
+}
+
+.App {
+  min-height: 100vh;
+  /* background: linear-gradient( 45deg, #FCFDFF 0%, #D9E2F4 100%); */
+  background-color: var(--primaryRed);
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+.slick-slide{
+  width : 100%;
+}
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

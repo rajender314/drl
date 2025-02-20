@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="64px" height="64px" viewBox="0 0 64 64" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 64 (93537) - https://sketch.com -->
+    <title>User_profile</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" strokeWidth="1" fill="none" fillRule="evenodd">
+        <g id="User_profile">
+            <circle id="Oval" fill="#FFFFFF" cx="32" cy="32" r="32"></circle>
+            <path d="M32,0 C14.3494737,0 0,14.3494737 0,32 C0,49.6505263 14.3494737,64 32,64 C49.6505263,64 64,49.6505263 64,32 C64,14.3494737 49.6505263,0 32,0 Z M32,12 C37.5033557,12 42,16.4966443 42,22 C42,27.5033557 37.5033557,32 32,32 C26.4966443,32 22,27.5033557 22,22 C22,16.4966443 26.4966443,12 32,12 Z M14,44.2489451 L14,42.7637131 C14,38.5105485 17.4326923,35 21.7403846,35 L41.2596154,35 C45.5,35 49,38.443038 49,42.7637131 L49,44.2489451 C44.3557692,48.4345992 38.2307692,51 31.5,51 C24.7692308,51 18.6442308,48.4345992 14,44.2489451 Z" id="Shape" fill="#DEE4E8"></path>
+        </g>
+    </g>
+</svg>

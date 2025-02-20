@@ -1,0 +1,108 @@
+.container {
+    display: flex;
+    width: 100%;
+    background: inherit;
+   
+}
+
+.dateDayItem.active {
+    font-weight: bold;
+    width: 48px;
+    height: 48px;
+    border-radius: 8px;
+    background: linear-gradient(108.24deg, #42BB73 40.19%, #98F2BD 129.14%);
+    border: 1px solid rgba(92, 185, 129, 0.4);
+    box-sizing: border-box;
+}
+
+.dateDayItem.active .dateLabel {
+    color: #FFF;
+}
+
+.dateDayItem.active .dayLabel {
+    color: #FFF;
+}
+
+.buttonWrapper {
+    display: flex;
+    align-items: flex-end;
+    z-index: 2;
+    background: inherit;
+}
+
+.button {
+    border: none;
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    margin-bottom: 5px;
+}
+
+.dateListScrollable {
+    display: flex;
+    overflow-x: scroll;
+    scrollbar-width: none;
+    -webkit-overflow-scrolling: touch;
+    border: 1px solid #BAE2CA;
+    box-sizing: border-box;
+    border-radius: 8px;
+}
+
+.dateListScrollable::-webkit-scrollbar {
+    -webkit-appearance: none;
+    display: none;
+}
+
+.monthContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.monthYearLabel {
+    align-self: flex-start;
+    z-index: 3;
+    font-size: 15px;
+    font-weight: bold;
+    position: sticky;
+    top: 0;
+    left: 0;
+    width: max-content;
+    margin: 0 14px 10px 0;
+}
+
+.dateDayItem {
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+    width: 48px;
+    height: 48px;
+    flex-shrink: 0;
+    justify-content: center;
+    align-items: center;
+}
+
+.daysContainer {
+    display: flex;
+    z-index: 1;
+    background: linear-gradient( 45deg, #FDFEFF 0%, #F1F4FB 100%);
+    box-sizing: border-box;
+    border-radius: 8px;
+}
+
+.dayLabel {
+    font-size: 9px;
+}
+
+.dateLabel {
+    font-size: 12px;
+}

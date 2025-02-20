@@ -1,0 +1,1 @@
+export { Specialization } from './icon';
